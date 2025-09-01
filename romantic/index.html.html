@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Para ti ❤️</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>❤️</text></svg>">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1 class="logo">Para ti, <span id="logoNombre">amor</span> 💖</h1>
+      <nav>
+        <a href="index.html" class="nav-link active">Inicio</a>
+        <a href="gallery.html" class="nav-link">Galería</a>
+        <a href="letter.html" class="nav-link active">Carta</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero card">
+      <div class="hero-content">
+        <h2>Una sorpresita para ti</h2>
+        <p>Llena este formulario y te llevaré a un lugar con nuestros recuerdos.</p>
+      </div>
+    </section>
+
+    <section class="card">
+      <form id="loveForm" class="form-grid">
+        <div class="form-field">
+          <label for="nombre">Tu nombre</label>
+          <input id="nombre" name="nombre" type="text" placeholder="Nombre" required />
+        </div>
+
+        <div class="form-field">
+          <label for="color">Tu color favorito</label>
+          <input id="color" name="color" type="text" placeholder="Color" />
+        </div>
+
+        <div class="form-field">
+          <label for="cancion">Una canción que te recuerde a nosotros</label>
+          <input id="cancion" name="cancion" type="text" placeholder="Cancion" />
+        </div>
+
+        <div class="form-field">
+          <label for="comida">Tu comida favorita</label>
+          <input id="comida" name="comida" type="text" placeholder="Comida favorita" />
+        </div>
+
+        <div class="form-field">
+          <label for="lugar">Un lugar al que quieras ir conmigo</label>
+          <input id="lugar" name="lugar" type="text" placeholder="Piensa en grande" />
+        </div>
+
+        <div class="form-field">
+          <label for="fechaEspecial">Una fecha especial</label>
+          <input id="fechaEspecial" name="fechaEspecial" type="date" />
+        </div>
+
+        <div class="form-field full">
+          <label for="deseo">Un deseo que quieras cumplir conmigo</label>
+          <textarea id="deseo" name="deseo" rows="2"></textarea>
+        </div>
+
+        <div class="form-field full">
+          <label for="mensaje">Déjame un mensajito</label>
+          <textarea id="mensaje" name="mensaje" rows="3"></textarea>
+        </div>
+
+        <div class="form-actions">
+          <button type="submit" class="btn btn-primary">Ver la sorpresa ✨</button>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>Hecho con ❤️ por ti</small>
+    </div>
+  </footer>
+
+  <script src="assets/js/form.js"></script>
+</body>
+</html>
